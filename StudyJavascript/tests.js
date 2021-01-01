@@ -34,4 +34,7 @@ var temp = `/^https:\\/\\/ncode.syosetu.com\\/n\\d{4}\\u{2}\\//`.replace(/\\/g, 
 // var temp2 = "'this is temp.'";
 // console.log(temp2.replace(/temp/, temp))
 
-console.log('0123'.slice(1));
+// console.log('0123'.slice(1));
+
+console.log(Boolean(``));
+console.log(Boolean(`a`));
