@@ -54,3 +54,6 @@ var temp = `/^https:\\/\\/ncode.syosetu.com\\/n\\d{4}\\u{2}\\//`.replace(/\\/g, 
 
 // console.log(obj.result);
 // // expected output: true
+
+const reg = />|次/;
+console.log("abc>".search(reg), "次".search(reg))
