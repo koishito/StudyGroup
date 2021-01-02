@@ -36,5 +36,21 @@ var temp = `/^https:\\/\\/ncode.syosetu.com\\/n\\d{4}\\u{2}\\//`.replace(/\\/g, 
 
 // console.log('0123'.slice(1));
 
-console.log(Boolean(``));
-console.log(Boolean(`a`));
+// console.log(Boolean(``));
+// console.log(Boolean(`a`));
+
+// var matchName =`kk`;
+// matchName += `\n` + 'key';
+// console.log(matchName);
+// // var matchName += `\n` + 'key';
+// console.log(matchName);
+
+// // const a = 'aaa';
+// const json = '{"result":"s", "count":42}';
+// const obj = JSON.parse(json);
+
+// console.log(obj.count);
+// // expected output: 42
+
+// console.log(obj.result);
+// // expected output: true
